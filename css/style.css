@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: right;
+}
+
+nav a {
+    padding: 1em;
+    color: rgb(138, 145, 247);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9a9c91;
+}
+
+.binfo {
+    background-color: rgb(58, 106, 160);
+    color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 3em;
+    text-align: center;
+    color: rgb(165, 176, 165);
+}
+
+.name {
+    font-size: 4em;
+    font-weight: bold;
+    background: linear-gradient(to right, black, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 0;
+    font-family: Agbalumo, sans-serif;
+}
+
+.about {
+    font-size: 1em;
+    font-family: Inclusive, sans-serif;
+    color: gray
+}
+
+.p1 {
+    position: absolute;
+    height: 80px;
+    top: 150px;
+    margin: 0;
+    padding: 5px;
+    right: 1100px;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 4em;
+    margin: 0.5em;
+}
+
+.welcome {
+    font-size: 6em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+    margin-left: 1em;
+    padding: 0;
+    margin-right: 0;
+    font-family: Agbalumo, sans-serif;
+}
+
+.p2 {
+    position: absolute;
+    height: 80px;
+    top: 150px;
+    margin: 0;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+    right: 300px;
+}
+
+hr {
+    border: 1px solid rgb(138, 145, 247);
+    width: 50%;
+}
+.hi {
+    width: 400px;
+}
+.threec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card {
+    background-color: rgb(58, 106, 160);
+    border-color: #9a9c91;
+    border: 3px solid #9a9c91;
+    border-radius: 5px;
+    color: black;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    color: rgb(165, 176, 165);
+    line-height: 1.5em;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+footer {
+    background-color: black;
+    color: rgb(138, 145, 247);
+    padding: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(138, 145, 247);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #9a9c91;
+}
+
+a {
+    color: rgb(138, 145, 247);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9a9c91;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.atwo {
+    margin: auto;
+    text-align: center;
+}
+
+dl {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+dt, dd {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,77 @@
+.card {
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    color: rgb(250, 248, 248);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+body {
+    background-color: rgb(58, 106, 160);;
+}
+
+.onecol {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    margin-bottom: 1em;
+    margin: 0;
+    justify-content: right;
+}
+
+nav a {
+    padding: 1em;
+    color: rgb(138, 145, 247);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9a9c91;
+}
+
+.intro {
+    margin: 1em;
+    text-align: center;
+}
+
+.rm {
+    margin: 1em;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: rgb(138, 145, 247);
+    padding: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(138, 145, 247);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #9a9c91;
+}
+
+.submitbutton {
+    background-color: rgb(58, 106, 160);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+}
